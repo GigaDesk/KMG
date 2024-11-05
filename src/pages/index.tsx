@@ -4,7 +4,7 @@ import Header from "../components/header";
 export default function Home() {
   return (
     <div className="relative">
-      <div className="fixed top-0 left-0 right-0">
+      <div className="fixed top-0 left-0 right-0 z-50">
         <Header />
       </div>
     </div>
